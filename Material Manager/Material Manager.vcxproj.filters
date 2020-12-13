@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Bill">
+      <UniqueIdentifier>{9aba4cea-510e-4d9b-b155-3f9b597c5744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\graphics">
+      <UniqueIdentifier>{b0c71180-8f4c-4e37-abda-1554304917f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\freelibrary">
+      <UniqueIdentifier>{0845586a-1d04-419e-848e-31d51a910f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Material">
+      <UniqueIdentifier>{924bc9f2-f019-4149-9add-b95972a7a7f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Employee">
+      <UniqueIdentifier>{03799040-6574-4bac-b32e-036c17510119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bill\Bill details">
+      <UniqueIdentifier>{f2565a5f-5455-4fc1-87ab-5426f612ed9d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Database.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bill.h">
+      <Filter>Source Files\Bill</Filter>
+    </ClInclude>
+    <ClInclude Include="Bill_linked_list.h">
+      <Filter>Source Files\Bill</Filter>
+    </ClInclude>
+    <ClInclude Include="Bill_Manager.h">
+      <Filter>Source Files\Bill</Filter>
+    </ClInclude>
+    <ClInclude Include="Bill_Node.h">
+      <Filter>Source Files\Bill</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Draw.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Select_field.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Text_field.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Source Files\freelibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeLibrary.h">
+      <Filter>Source Files\freelibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Material.h">
+      <Filter>Source Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Material_Manager.h">
+      <Filter>Source Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Material_Node.h">
+      <Filter>Source Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Material_Tree.h">
+      <Filter>Source Files\Material</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee.h">
+      <Filter>Source Files\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee_list.h">
+      <Filter>Source Files\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="Employee_Manager.h">
+      <Filter>Source Files\Employee</Filter>
+    </ClInclude>
+    <ClInclude Include="Insert.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Source Files\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Best_Selling.h">
+      <Filter>Source Files\Bill</Filter>
+    </ClInclude>
+    <ClInclude Include="Random_names.h">
+      <Filter>Source Files\freelibrary</Filter>
+    </ClInclude>
+    <ClInclude Include="Bill_details.h">
+      <Filter>Source Files\Bill\Bill details</Filter>
+    </ClInclude>
+    <ClInclude Include="Billdetails_array.h">
+      <Filter>Source Files\Bill\Bill details</Filter>
+    </ClInclude>
+    <ClInclude Include="Billdetails_list.h">
+      <Filter>Source Files\Bill\Bill details</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeLibrary.cpp">
+      <Filter>Source Files\freelibrary</Filter>
+    </ClCompile>
+    <ClCompile Include="Random_names.cpp">
+      <Filter>Source Files\freelibrary</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
